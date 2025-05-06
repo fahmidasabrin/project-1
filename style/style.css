@@ -27,7 +27,17 @@
   border-radius: 10px;
   margin-bottom: 10px;
 }
-
+ 
+#blog{
+ /* Group 50 */
+position: absolute;
+width: 802.9px;
+height: 806px;
+left: 399px;
+right: 398.1px;
+top: 770px;
+bottom: 5759px;
+}
 #blog p{
   color: rgb(255, 0, 0);
   font-family: Inter;
@@ -47,4 +57,26 @@
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 10px;
+} 
+
+#blog .blog-cotinu h1{
+  color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
 }
+
+#blog .img{
+  /* Vector */
+position: absolute;
+width: 802.9px;
+height: 500px;
+left: 399px;
+right: -399px;
+top: 165.28%;
+bottom: -142.09%;
+}
+
