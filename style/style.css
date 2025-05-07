@@ -132,5 +132,32 @@ body {
   font-size: 14px;
   border-radius: 4px;
 }
+ 
 
 
+
+
+
+
+.label {
+  color: red;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.value {
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.join-button {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
