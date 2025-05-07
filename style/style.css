@@ -138,26 +138,70 @@ body {
 
 
 
+.offer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  border: 1px solid #ddd;
+  max-width: 1300px;
+  margin: 60px auto;
+  gap: 30px;
+}
 
-.label {
+.left-section, .right-section {
+  flex: 1;
+}
+
+.center-image {
+  flex: 1;
+  text-align: center;
+}
+
+.small-red {
   color: red;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 20px; /* বড় করলাম */
+  margin-bottom: 15px;
 }
 
-.value {
-  color: black;
+.coming-soon {
+  font-size: 48px; /* বড় করলাম */
   font-weight: bold;
-  font-size: 50px;
+  margin: 15px 0;
 }
 
-.join-button {
-  background-color: red;
-  color: white;
+.description {
+  color: #555;
+  font-size: 18px; /* বড় করলাম */
+  line-height: 1.8;
+}
+
+.image-circle {
+  width: 260px; /* বড় করলাম */
+  height: 260px;
+  border: 6px solid red;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.image-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.year {
+  color: red;
+  font-size: 40px; /* বড় করলাম */
   font-weight: bold;
-  font-size: 22px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.small-img {
+  width: 130px; /* বড় করলাম */
+  margin-top: 25px;
+  float: right;
 }
