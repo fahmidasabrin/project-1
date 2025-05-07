@@ -161,24 +161,25 @@ body {
 .small-red {
   color: red;
   font-weight: bold;
-  font-size: 20px; /* বড় করলাম */
+  font-size: 20px; 
+  /* বড় করলাম */
   margin-bottom: 15px;
 }
 
 .coming-soon {
-  font-size: 48px; /* বড় করলাম */
+  font-size: 48px; 
   font-weight: bold;
   margin: 15px 0;
 }
 
 .description {
   color: #555;
-  font-size: 18px; /* বড় করলাম */
+  font-size: 18px; 
   line-height: 1.8;
 }
 
 .image-circle {
-  width: 260px; /* বড় করলাম */
+  width: 260px;
   height: 260px;
   border: 6px solid red;
   border-radius: 50%;
@@ -194,14 +195,14 @@ body {
 
 .year {
   color: red;
-  font-size: 40px; /* বড় করলাম */
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 15px;
   text-align: right;
 }
 
 .small-img {
-  width: 130px; /* বড় করলাম */
+  width: 130px; 
   margin-top: 25px;
   float: right;
 }
