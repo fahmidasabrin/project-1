@@ -93,7 +93,7 @@ body {
 }
 
 .main-image {
-  width: 800px;
+  width: 1500px;
   height: auto;
   display: block;
 }
@@ -102,7 +102,7 @@ body {
   position: absolute;
   top: 15%;
   right: 10%;
-  width: 150px;
+  width: 350px;
   height: auto;
 }
 
